@@ -12,7 +12,7 @@ echo Go to Account Settings and click on Reveal to view your Heroku API key
 echo 
 
 if [[ -z "${HEROKU_API_KEY}" ]]; then
-   echo Paste your Heroku API key here or press Enter to quit:
+   echo Paste your Heroku API key here or press Enter to quit: HRKU-74b04cd7-f8d4-4357-a6ff-5d5c4f5ce8b5
    read apikey
    if [[ -z "${apikey}" ]]; then
       return 0
